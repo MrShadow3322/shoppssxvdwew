@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Профиль</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="profile-page">
+    <!-- Шапка -->
+    <header>
+      <h1>Профиль</h1>
+    </header>
+
+    <!-- Основная часть -->
+    <main>
+      <div class="profile-info">
+        <p><strong>ID пользователя:</strong> <span id="user-id"></span></p>
+        <h2>История заказов:</h2>
+        <ul id="order-history">
+          <li>Заказов пока нет.</li>
+        </ul>
+      </div>
+    </main>
+
+    <!-- Навигация -->
+    <footer>
+      <button class="nav-btn" onclick="goToPage('index.html')">Главная</button>
+      <button class="nav-btn">Поиск</button>
+      <button class="nav-btn" onclick="goToPage('profile.html')">Профиль</button>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

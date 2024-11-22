@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Маркетплейс</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Шапка -->
+    <header>
+      <h1>Маркетплейс</h1>
+    </header>
+
+    <!-- Основная часть -->
+    <main>
+      <div class="products">
+        <!-- Пример карточки товара -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/150" alt="Изображение товара">
+          <h2>Ноутбук</h2>
+          <p class="price">Цена: 15000 ₴</p>
+          <button class="buy-btn">Купить</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Навигация -->
+    <footer>
+      <button class="nav-btn" onclick="goToPage('index.html')">Главная</button>
+      <button class="nav-btn">Поиск</button>
+      <button class="nav-btn" onclick="goToPage('profile.html')">Профиль</button>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
